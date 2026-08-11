@@ -1,0 +1,9 @@
+@import "tailwindcss"; /* importamos */
+
+*{
+box-sizing: border-box;  /* consistente con todos los elementos */ 
+}
+
+body {
+  margin: 0;   /* eliminacion margen predeterminado*/
+}
