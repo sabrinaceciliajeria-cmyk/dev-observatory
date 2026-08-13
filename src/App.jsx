@@ -1,26 +1,17 @@
-// Importamos el layout principal del dashboard.
+// Importamos el layout principal.
 import DashboardLayout from "./layouts/DashboardLayout";
 
-// Creamos el componente raíz de la aplicación.
+// Importamos la página principal.
+import Dashboard from "./pages/Dashboard";
+
+// Creamos el componente raíz.
 function App() {
-  // Retornamos el layout principal.
+  // Montamos el layout y la página.
   return (
     <DashboardLayout>
 
-      {/* Contenido provisional del dashboard. */}
-      <section>
-
-        {/* Título principal. */}
-        <h1 className="text-3xl font-bold text-slate-100">
-          Welcome to Dev Observatory
-        </h1>
-
-        {/* Descripción inicial. */}
-        <p className="mt-2 text-slate-400">
-          Analyze your GitHub developer activity.
-        </p>
-
-      </section>
+      {/* Mostramos el dashboard. */}
+      <Dashboard />
 
     </DashboardLayout>
   );
