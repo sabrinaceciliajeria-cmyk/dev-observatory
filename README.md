@@ -10,6 +10,12 @@ El objetivo es construir una interfaz moderna de análisis de datos que combine 
 
 ---
 
+## 📸 Preview
+
+![Dev Observatory Dashboard](docs/screenshots/dev-observatory-1.0.png)
+
+> Estado actual del proyecto: **Fase 1 — Configuración base completada.**
+
 ## 🎯 Objetivo del proyecto
 
 Desarrollar una aplicación frontend capaz de convertir datos públicos de GitHub en información visual y fácilmente interpretable.
@@ -200,7 +206,7 @@ VITE_GITHUB_API_URL=...
 ## 🗺️ Roadmap
 
 - [x] **Fase 0 — Inicialización y arquitectura**
-- [ ] **Fase 1 — Configuración base**
+- [x] **Fase 1 — Configuración base**
 - [ ] **Fase 2 — Integración con GitHub API**
 - [ ] **Fase 3 — Gestión y transformación de datos**
 - [ ] **Fase 4 — Dashboard principal**
