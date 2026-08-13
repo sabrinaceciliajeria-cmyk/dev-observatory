@@ -1,28 +1,30 @@
-// Creamos el componente principal de nuestra aplicación
+// Importamos el layout principal del dashboard.
+import DashboardLayout from "./layouts/DashboardLayout";
+
+// Creamos el componente raíz de la aplicación.
 function App() {
-
-  // Retornamos la interfaz que verá el usuario
+  // Retornamos el layout principal.
   return (
+    <DashboardLayout>
 
-    // Contenedor principal que ocupa toda la pantalla
-    <main className="min-h-screen bg-slate-950">
+      {/* Contenido provisional del dashboard. */}
+      <section>
 
-      {/* Centramos el contenido horizontal y verticalmente */}
-      <div className="flex min-h-screen items-center justify-center">
-
-        {/* Título principal de nuestra aplicación */}
-        <h1 className="text-5xl font-bold text-white">
-
-          {/* Nombre de nuestro proyecto */}
-          Dev Observatory 🚀
-
+        {/* Título principal. */}
+        <h1 className="text-3xl font-bold text-slate-100">
+          Welcome to Dev Observatory
         </h1>
 
-      </div>
+        {/* Descripción inicial. */}
+        <p className="mt-2 text-slate-400">
+          Analyze your GitHub developer activity.
+        </p>
 
-    </main>
+      </section>
+
+    </DashboardLayout>
   );
 }
 
-// Exportamos el componente principal
+// Exportamos el componente raíz.
 export default App;

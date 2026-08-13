@@ -1,9 +1,12 @@
-@import "tailwindcss"; /* importamos */
+/* Importamos Tailwind CSS */
+@import "tailwindcss";
 
-*{
-box-sizing: border-box;  /* consistente con todos los elementos */ 
+/* Aplicamos box-sizing consistente a todos los elementos */
+* {
+  box-sizing: border-box;
 }
 
+/* Eliminamos el margen predeterminado del navegador */
 body {
-  margin: 0;   /* eliminacion margen predeterminado*/
+  margin: 0;
 }
