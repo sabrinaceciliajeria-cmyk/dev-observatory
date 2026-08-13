@@ -12,7 +12,7 @@ El objetivo es construir una interfaz moderna de análisis de datos que combine 
 
 ## 📸 Preview
 
-![Dev Observatory Dashboard](docs/screenshots/dev-observatory-1.0.png)
+![Dev Observatory Dashboard] <img width="654" height="317" alt="dev observatory 1 0" src="https://github.com/user-attachments/assets/82b0c8c2-d9f5-4045-9875-60fc5075da83" />
 
 > Estado actual del proyecto: **Fase 1 — Configuración base completada.**
 
